@@ -1,0 +1,1 @@
+#stars-container{width:100vw;height:100vh;position:fixed;top:0;left:0;z-index:-1}.star{background-color:yellow;position:absolute;border-radius:100%;opacity:0;transition:opacity 1s ease-in,box-shadow 0.2s ease-in}.show{opacity:1}.hide{opacity:0}

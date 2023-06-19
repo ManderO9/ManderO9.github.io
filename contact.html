@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <base href="https://mandero9.github.io/website-source/"> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Strive for happiness</title>
+
+    <link href="Assets/Css/style.css" rel="stylesheet" type="text/css" />
+    <link href="Assets/Css/about.css" rel="stylesheet" type="text/css" />
+    <link href="Assets/Css/stars.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="Assets/Js/base.js"></script>
+    <script type="text/javascript" src="Assets/Js/animateUpAndFadeIn.js"></script>
+    <script type="text/javascript" src="Assets/Js/stars.js"></script>
+
+</head>
+<header class="top-menu">
+    <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="./about">About</a></li>
+        <li><a href="./work">Work</a></li>
+        <li><a href="./contact">Contact</a></li>
+        <li>
+            <a href="https://github.com/ManderO9/" target="_blank">
+                <svg width="25px" height="25px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+                    <path id="github"
+                        d="M32.029,8.345c-13.27,0 -24.029,10.759 -24.029,24.033c0,10.617 6.885,19.624 16.435,22.803c1.202,0.22 1.64,-0.522 1.64,-1.16c0,-0.569 -0.02,-2.081 -0.032,-4.086c-6.685,1.452 -8.095,-3.222 -8.095,-3.222c-1.093,-2.775 -2.669,-3.514 -2.669,-3.514c-2.182,-1.492 0.165,-1.462 0.165,-1.462c2.412,0.171 3.681,2.477 3.681,2.477c2.144,3.672 5.625,2.611 6.994,1.997c0.219,-1.553 0.838,-2.612 1.526,-3.213c-5.336,-0.606 -10.947,-2.669 -10.947,-11.877c0,-2.623 0.937,-4.769 2.474,-6.449c-0.247,-0.608 -1.072,-3.051 0.235,-6.36c0,0 2.018,-0.646 6.609,2.464c1.917,-0.533 3.973,-0.8 6.016,-0.809c2.041,0.009 4.097,0.276 6.017,0.809c4.588,-3.11 6.602,-2.464 6.602,-2.464c1.311,3.309 0.486,5.752 0.239,6.36c1.54,1.68 2.471,3.826 2.471,6.449c0,9.232 -5.62,11.263 -10.974,11.858c0.864,0.742 1.632,2.208 1.632,4.451c0,3.212 -0.029,5.804 -0.029,6.591c0,0.644 0.432,1.392 1.652,1.157c9.542,-3.185 16.421,-12.186 16.421,-22.8c0,-13.274 -10.76,-24.033 -24.034,-24.033"
+                        style="fill:#f0f7f4;" />
+                </svg>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.linkedin.com/in/hossem-chetoui-674b75226" target="_blank">
+                <svg fill="#f0f7f4" width="25px" height="25px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="-271 283.9 256 235.1" xml:space="preserve">
+                    <g>
+                        <rect x="-264.4" y="359.3" width="49.9" height="159.7" />
+                        <path
+                            d="M-240.5,283.9c-18.4,0-30.5,11.9-30.5,27.7c0,15.5,11.7,27.7,29.8,27.7h0.4c18.8,0,30.5-12.3,30.4-27.7 C-210.8,295.8-222.1,283.9-240.5,283.9z" />
+                        <path
+                            d="M-78.2,357.8c-28.6,0-46.5,15.6-49.8,26.6v-25.1h-56.1c0.7,13.3,0,159.7,0,159.7h56.1v-86.3c0-4.9-0.2-9.7,1.2-13.1 c3.8-9.6,12.1-19.6,27-19.6c19.5,0,28.3,14.8,28.3,36.4V519h56.6v-88.8C-14.9,380.8-42.7,357.8-78.2,357.8z" />
+                    </g>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</header>
+
+<body>
+
+<div class="contact-page">
+    <div class="text">
+        <p>You can dm me on <a href="https://www.linkedin.com/in/hossem-chetoui-674b75226" class="big-link">LinkedIn</a>
+            or send me a message here</p>
+        <p>Can't wait to hear what you've got to say !</p>
+    </div>
+    <div class="form">
+        <form method="POST">
+            <label for="email">Email</label>
+            <input type="email" name="email" required maxlength="1000">
+            <br>
+            <label for="name">Name</label>
+            <input type="text" name="name" maxlength="1000">
+            <br>
+            <label for="content">Your message</label>
+            <textarea type="text" name="content" rows="5" required maxlength="10000"></textarea>
+            <br>
+            <div class="button-container">
+                <button type="submit" class="simple-button">Send</button>
+            </div>
+        </form>
+    </div>
+    <div>
+        <p>
+            Message sent successfully
+            <br><button class="simple-button">Ok</button>
+        </p>
+    </div>
+    <div>
+        <p>
+            Oops! failed to send your message :( <br>
+            <span id="error-message-container"></span>
+            <br><button class="simple-button">Ok</button>
+        </p>
+    </div>
+</div>
+
+
+<script>
+    // Server url
+    const host = "http://websitebackend.somee.com";
+    
+    // Url to create a message
+    const url = host + "/api/messages/create";
+
+    // A flag indicating if we are already sending a request
+    var sending = false;
+    
+    // The error message element
+    const errorMessage = document.querySelector(".contact-page>div:nth-child(4)");
+
+    // Displays an error to the user
+    function DisplayError(error) {
+        // Get the element that will contain the error message
+        var errorContainer = document.querySelector("#error-message-container");
+
+        // Set error in container
+        errorContainer.textContent = error;
+
+        // Display the error message
+        errorMessage.style.opacity = "1";
+        errorMessage.style.pointerEvents = "all";
+    }
+
+    // Gets run when we submit the contact form
+    async function SubmitFunction(e) {
+        // Prevent default behavior of submit
+        e.preventDefault();
+
+        // If we are already sending a request
+        if (sending)
+            // Don't do anything
+            return;
+
+        // Set sending flag to true
+        sending = true;
+
+        // The successs message element
+        const successMessage = document.querySelector(".contact-page>div:nth-child(3)");
+
+        // The submit button
+        const sendButton = document.querySelector(".contact-page>div>form>.button-container>button");
+
+        // The button that will get displayed with the success message
+        const successButton = document.querySelector(".contact-page>div:nth-child(3)>p>button");
+
+        // The button that will get displayed with the error message
+        const failedButton = document.querySelector(".contact-page>div:nth-child(4)>p>button");
+
+        // Set the send button to busy
+        sendButton.textContent = "Sending...";
+
+        // Try send the request
+        try {
+            // Create the request body
+            var body = JSON.stringify({
+                email: document.querySelector('input[name="email"]').value,
+                name: document.querySelector('input[name="name"]').value,
+                content: document.querySelector('textarea[name="content"]').value
+            });
+
+            // Send the request and get the response
+            var response = await fetch(url, {
+                method: "POST", body: body, headers: {
+                    "Content-Type": "application/json"
+                }
+            });
+
+            // If the request succeeded
+            if (response.status == 200) {
+                // Display success message
+                successMessage.style.opacity = "1";
+                successMessage.style.pointerEvents = "all";
+            }
+            // Otherwise, if it failed
+            else {
+                // Get the error from the body
+                var error = await response.text();
+
+                // If we have a too many requests response
+                if (response.status == 429)
+                    // Set error message to indicate it
+                    error = "You have sent way too many messages";
+
+
+                // If we have a service unavailable response
+                if (response.status == 503)
+                    // Set error message to indicate it
+                    error = "Server is not currently available";
+
+
+                // If we have an error message
+                if (error)
+                    // Set the error text to it
+                    DisplayError("\"" + error + "\"");
+                // Otherwise...
+                else
+                    // Set it to a generic error message
+                    DisplayError("\"Unknown error\"");
+            }
+        }
+        // If there was an erorr
+        catch {
+            DisplayError("Couldn't contact the server, unknown error")
+        }
+
+        // Reset the text of the send button
+        sendButton.textContent = "Send";
+
+        // Set sending flag to false
+        sending = false;
+
+        // Add click event to the failed button
+        failedButton.addEventListener("click", () => {
+            // On click hide the error message
+            errorMessage.style.opacity = "0";
+            errorMessage.style.pointerEvents = "none";
+        });
+
+        // Add click event to the success button
+        successButton.addEventListener("click", () => {
+            // On click hide the success message
+            successMessage.style.opacity = "0";
+            successMessage.style.pointerEvents = "none";
+
+            // Clear all fields
+            document.querySelector('input[name="email"]').value = "";
+            document.querySelector('input[name="name"]').value = "";
+            document.querySelector('textarea[name="content"]').value = "";
+
+        });
+
+    }
+
+    // Get the contact form
+    var form = document.querySelector("form");
+
+    // Handle submit event ourselves
+    form.addEventListener("submit", SubmitFunction);
+</script>
+    </body>
+    <footer>
+    </footer>
+</html>
