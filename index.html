@@ -95,6 +95,13 @@
     </div>
 
     
+    <script>
+        function ScrollToEnd(){
+            const body = document.querySelector("body");
+            window.scrollTo({ top: body.clientHeight });
+        }
+    </script>
+
     <div class="third-page">
         <div class="fade-out"></div>
         <div class="services">
@@ -104,7 +111,7 @@
                 <div class="description">Create high quality websites, that will allow you to achieve your core objectives.</div>
                 <div class="button-container">
 
-                    <button>
+                    <button onclick="ScrollToEnd()">
                         <span>Know More </span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 29" fill="none">
                             <g clip-path="url(#clip0_16_52)">
@@ -124,7 +131,7 @@
                 <div class="title">Mobile Apps</div>
                 <div class="description">Make mobile applications that meets your needs with exceptional user experience.</div>
                 <div class="button-container">
-                    <button>
+                    <button onclick="ScrollToEnd()">
                         <span>Know More </span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 29" fill="none">
                             <g clip-path="url(#clip0_16_52)">
@@ -144,7 +151,7 @@
                 <div class="title">Training And Education</div>
                 <div class="description">You will learn everything you need to know to start building software and make money right now.</div>
                 <div class="button-container">
-                    <button>
+                    <button onclick="ScrollToEnd()">
                         <span>Know More </span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 29" fill="none">
                             <g clip-path="url(#clip0_16_52)">
@@ -164,7 +171,7 @@
                 <div class="title">Desktop Apps</div>
                 <div class="description">Get robust, high performance apps that will make you save time and money by automating your tasks and solving your business problems.</div>
                 <div class="button-container">
-                    <button>
+                    <button onclick="ScrollToEnd()">
                         <span>Know More </span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 29" fill="none">
                             <g clip-path="url(#clip0_16_52)">
@@ -325,8 +332,7 @@
     </div>
 
     <script>
-        // TODO: uncomment this
-        // fetch("https://www.ping.somee.com/ping?source=1");
+        fetch("https://www.ping.somee.com/ping?source=1");
     </script>
 </div>
     </body>
