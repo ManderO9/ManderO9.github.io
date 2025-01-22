@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="-271 283.9 256 235.1" xml:space="preserve">
-<g>
-	<rect x="-264.4" y="359.3" width="49.9" height="159.7"/>
-	<path d="M-240.5,283.9c-18.4,0-30.5,11.9-30.5,27.7c0,15.5,11.7,27.7,29.8,27.7h0.4c18.8,0,30.5-12.3,30.4-27.7
-		C-210.8,295.8-222.1,283.9-240.5,283.9z"/>
-	<path d="M-78.2,357.8c-28.6,0-46.5,15.6-49.8,26.6v-25.1h-56.1c0.7,13.3,0,159.7,0,159.7h56.1v-86.3c0-4.9-0.2-9.7,1.2-13.1
-		c3.8-9.6,12.1-19.6,27-19.6c19.5,0,28.3,14.8,28.3,36.4V519h56.6v-88.8C-14.9,380.8-42.7,357.8-78.2,357.8z"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="44" fill="none"><g clip-path="url(#a)"><rect width="44.093" height="44" fill="#141414" rx="8"/><path stroke="#DCFC36" stroke-opacity=".2" d="M1.5 51.035V-7m8 58.035V-7m8 58.035V-7m8 58.035V-7m8 58.035V-7m8 58.035V-7M-7 1.517h58.035M-7 9.517h58.035m-58.035 8h58.035m-58.035 8h58.035m-58.035 8h58.035m-58.035 8h58.035"/><path fill="url(#b)" d="M0 0h44v44H0z"/><g filter="url(#c)"><g clip-path="url(#d)"><path fill="#DCFC36" d="M27.556 12h-11.02A4.537 4.537 0 0 0 12 16.537v10.926A4.537 4.537 0 0 0 16.537 32h11.019a4.537 4.537 0 0 0 4.537-4.537V16.537A4.537 4.537 0 0 0 27.556 12z"/><path fill="#050505" fill-rule="evenodd" d="M20.08 19.77h2.434v1.248h.035c.34-.608 1.169-1.248 2.405-1.248 2.57 0 3.046 1.6 3.046 3.68v4.401h-2.539v-3.919c0-.896-.019-2.049-1.32-2.049-1.322 0-1.525.975-1.525 1.984v3.984H20.08V19.77zm-1.44-2.45a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64.001zM16 19.77h2.64v8.081H16V19.77z" clip-rule="evenodd"/></g></g></g><rect width="43.093" height="43" x=".5" y=".5" stroke="#141414" rx="7.5"/><defs><clipPath id="a"><rect width="44.093" height="44" fill="#fff" rx="8"/></clipPath><clipPath id="d"><rect width="20.093" height="20" x="12" y="12" fill="#fff" rx="10"/></clipPath><radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="matrix(0 22 -22 0 22 22)" gradientUnits="userSpaceOnUse"><stop stop-color="#0A0A0B" stop-opacity="0"/><stop offset=".949" stop-color="#0A0A0B"/></radialGradient><filter id="c" width="44.093" height="44" x="0" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset/><feGaussianBlur stdDeviation="6"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix values="0 0 0 0 0.862745 0 0 0 0 0.988235 0 0 0 0 0.211765 0 0 0 0.3 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_2281_1988"/><feBlend in="SourceGraphic" in2="effect1_dropShadow_2281_1988" result="shape"/></filter></defs></svg>
